@@ -3,6 +3,7 @@
 
 ## Instructions to Install and run the App:
 
+ - Clone this project:  **git clone [https://github.com/Ramakrishna-ch/eSamudaay-Backend-Assignment.git](https://github.com/Ramakrishna-ch/eSamudaay-Backend-Assignment.git)**
  - Installation Package cmd: [pip install Flask](https://pypi.org/project/Flask/)
 
  - Run this cmd from Home Directory: **flask run** or **python app.py**
