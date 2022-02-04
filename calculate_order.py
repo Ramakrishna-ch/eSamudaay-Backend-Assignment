@@ -40,8 +40,9 @@ def calculate_total_order(request_param):
         Delivery_fee=Delivery_cost_slab[3]
     else:
         Delivery_fee=0
-
-    Total_order_cost+=Delivery_fee*100            # conversion of delivery fee in Rupees to Paise and adding it to Total order cost
+    
+    Delivery_fee=Delivery_fee*100            # conversion of delivery fee in Rupees to Paise and adding it to Total order cost
+    Total_order_cost+=Delivery_fee
 
 
 
